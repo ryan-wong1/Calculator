@@ -1,0 +1,103 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* black background */
+.black-background {
+    background: linear-gradient(rgb(102, 102, 102), rgb(0, 0, 0));
+    height: 100vh;
+}
+
+/* calculator container */
+.calculator-container {
+    font-family: Roboto;
+    text-align:center;    
+    margin: 0 auto;
+    max-width: 200px;
+    padding: 4.5px 3.5px 3.5px 3.5px;
+    border: 1px solid black;
+    background-color: rgb(85, 85, 85);
+}
+
+/* screen container*/
+.screen {
+    display:flex;
+    flex-direction: column;
+    margin: 2px;
+    border: 1px solid rgb(20, 20, 20);
+    background-color: rgb(243, 243, 243);
+}
+
+.screen-top {
+    height: 12px;
+    border-bottom: 1px solid rgb(20, 20, 20);
+    background-color: rgb(194, 194, 194);
+}
+
+.screen-bottom {
+    height: 28px;
+}
+
+.screen-top-message {
+    margin: 1px 2px 0px 0px;
+    text-align: right;
+    font-size: 8px;    
+}
+
+.screen-bottom-message {
+    margin: 3px 2px 0px 0px;
+    text-align: right;
+    font-size: 20px;
+}
+
+/* buttons */
+.row {
+    display:flex;
+}
+
+.button {
+    width: 25%;
+    padding: 10px;
+    margin: 2px;
+    border: 1px solid rgb(20, 20, 20);
+    border-radius: 2px;
+    box-shadow: 0px 1px rgb(36, 36, 36);
+}
+
+.button:active {
+    box-shadow: 0px 0px rgb(20, 20, 20);
+    transform: translateY(.6px);
+}
+
+.zero, .decimal {
+    width: 23.6%;
+}
+
+.equal {
+    width: 50%;
+}
+
+/* background color of displays*/
+.ac, .delete, .percent {
+    background: linear-gradient(rgb(255, 255, 255), rgb(212, 212, 212));
+}
+
+.divide, .multiply, .subtract, .add, .equal {
+    background: linear-gradient(rgb(255, 169, 39), rgb(255, 113, 31));
+}
+
+.seven, .eight, .nine, .four, .five, .six, .one, .two, .three, .zero, .decimal {
+    background: linear-gradient(rgb(204, 204, 204), rgb(97, 97, 97));
+}
+
+
+
+
+
+
+
+
+
+
