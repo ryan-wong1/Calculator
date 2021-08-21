@@ -3,6 +3,6 @@
 
 # Calculator
 
-Full functional calculator built with HTML, CSS, and JavaScript. 
+Fully functional calculator built with HTML, CSS, and JavaScript. 
 
 Supports clear, delete, percentages, decimals, and operators (+, -, *, /).
