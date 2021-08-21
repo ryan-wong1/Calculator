@@ -1,2 +1,8 @@
-<img width="300" alt="calculator" src="https://user-images.githubusercontent.com/72681183/130307732-4a5d84dc-d4ce-4482-aaa1-a63e58784705.png">
+
+<img width="402" alt="calculator" src="https://user-images.githubusercontent.com/72681183/130307777-08b4879b-733f-4877-a0aa-f7cddfe7502b.png">
+
 # Calculator
+
+Calculator built with HTML, CSS, and JavaScript. 
+
+Supports clear, delete, percentages, decimals, and operators (+, -, *, /).
